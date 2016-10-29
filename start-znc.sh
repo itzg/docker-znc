@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ${SSL^^} = TRUE ]; then
+if [[ ${SSL^^} = TRUE ]]; then
 
   mkdir ~/.znc
   znc --makepem
